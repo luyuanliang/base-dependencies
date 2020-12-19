@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.web</groupId>
-    <artifactId>base</artifactId>
+    <artifactId>base-dependencies</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>base</name>
+    <name>base-dependencies</name>
     <description>manager service dependencies </description>
 
     <properties>
@@ -21,10 +21,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <help-module-version>1.0.0</help-module-version>
     </properties>
-
-    <modules>
-        <module>helper</module>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
