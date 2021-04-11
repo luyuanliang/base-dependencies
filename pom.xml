@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>2.4.1</version>
+        <version>2.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.web</groupId>
@@ -30,12 +30,10 @@
                 <version>${help-module-version}</version>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
             <dependency>
                 <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>4.0.1</version>
-                <scope>provided</scope>
+                <artifactId>servlet-api</artifactId>
+                <version>2.5</version>
             </dependency>
 
             <dependency>
@@ -68,9 +66,10 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.16</version>
+                <version>1.18.20</version>
                 <scope>provided</scope>
             </dependency>
+
         </dependencies>
 
     </dependencyManagement>
